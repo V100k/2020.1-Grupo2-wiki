@@ -11,7 +11,7 @@
         <meta name="description" content="Artefatos de MDS e EPS, 2020.1">
       
       
-        <link rel="canonical" href="https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/roadmap/roadmap/">
+        <link rel="canonical" href="https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/repository_politics/repository_politics/">
       
       
         <meta name="author" content="Grupo 02">
@@ -21,7 +21,7 @@
     
     
       
-        <title>RoadMap - Grupo 02</title>
+        <title>Política de Repositório - Grupo 02</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#roadmap" class="md-skip">
+        <a href="#politicas-de-repositorio-de-codigo" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -94,7 +94,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              RoadMap
+              Política de Repositório
             
           </span>
         </div>
@@ -204,6 +204,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href="../../roadmap/roadmap/" title="RoadMap" class="md-nav__link">
+      RoadMap
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -215,14 +227,14 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        RoadMap
+        Política de Repositório
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
         </span>
       </label>
     
-    <a href="./" title="RoadMap" class="md-nav__link md-nav__link--active">
-      RoadMap
+    <a href="./" title="Política de Repositório" class="md-nav__link md-nav__link--active">
+      Política de Repositório
     </a>
     
       
@@ -241,37 +253,58 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#roadmap-do-produto" class="md-nav__link">
-    RoadMap do Produto
+  <a href="#politica-de-commits" class="md-nav__link">
+    Política de Commits
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#roadmap-de-papeis" class="md-nav__link">
-    RoadMap de papéis
+  <a href="#politica-de-branches" class="md-nav__link">
+    Política de Branches
   </a>
   
-    <nav class="md-nav" aria-label="RoadMap de papéis">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padrao-para-criacao-e-uso-das-branches" class="md-nav__link">
+    Padrão para criação e uso das branches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatizacao-de-fechamento-de-issue" class="md-nav__link">
+    Automatização de Fechamento de Issue
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-requests-tempestivos-e-permanentes" class="md-nav__link">
+    Pull-requests tempestivos e permanentes
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull-requests tempestivos e permanentes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#scrum-master" class="md-nav__link">
-    Scrum Master
+  <a href="#conflitos-nos-pull-requests" class="md-nav__link">
+    Conflitos nos Pull-requests
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#arquitetoa" class="md-nav__link">
-    Arquiteto(a)
+  <a href="#excecoes-commits-que-podem-ser-feitos-diretamente-na-devel" class="md-nav__link">
+    Exceções: commits que podem ser feitos diretamente na devel
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#devops" class="md-nav__link">
-    DevOps
+  <a href="#validacoes-de-produto" class="md-nav__link">
+    Validações de produto
   </a>
   
 </li>
@@ -285,18 +318,6 @@
   
 </nav>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../../repository_politics/repository_politics/" title="Política de Repositório" class="md-nav__link">
-      Política de Repositório
-    </a>
   </li>
 
     
@@ -326,37 +347,58 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#roadmap-do-produto" class="md-nav__link">
-    RoadMap do Produto
+  <a href="#politica-de-commits" class="md-nav__link">
+    Política de Commits
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#roadmap-de-papeis" class="md-nav__link">
-    RoadMap de papéis
+  <a href="#politica-de-branches" class="md-nav__link">
+    Política de Branches
   </a>
   
-    <nav class="md-nav" aria-label="RoadMap de papéis">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padrao-para-criacao-e-uso-das-branches" class="md-nav__link">
+    Padrão para criação e uso das branches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatizacao-de-fechamento-de-issue" class="md-nav__link">
+    Automatização de Fechamento de Issue
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-requests-tempestivos-e-permanentes" class="md-nav__link">
+    Pull-requests tempestivos e permanentes
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull-requests tempestivos e permanentes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#scrum-master" class="md-nav__link">
-    Scrum Master
+  <a href="#conflitos-nos-pull-requests" class="md-nav__link">
+    Conflitos nos Pull-requests
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#arquitetoa" class="md-nav__link">
-    Arquiteto(a)
+  <a href="#excecoes-commits-que-podem-ser-feitos-diretamente-na-devel" class="md-nav__link">
+    Exceções: commits que podem ser feitos diretamente na devel
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#devops" class="md-nav__link">
-    DevOps
+  <a href="#validacoes-de-produto" class="md-nav__link">
+    Validações de produto
   </a>
   
 </li>
@@ -378,7 +420,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/fga-eps-mds/2020.1-Grupo2-wiki/edit/master/docs/roadmap/roadmap.md" title="Editar esta página" class="md-content__button md-icon">
+                  <a href="https://github.com/fga-eps-mds/2020.1-Grupo2-wiki/edit/master/docs/repository_politics/repository_politics.md" title="Editar esta página" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -386,43 +428,55 @@
                   
                 
                 
-                <h1 id="roadmap">RoadMap</h1>
-<p>Este documento tem por finalidade armazenar o planejamento do RoadMap seguido no desenvolvimento do projeto.</p>
-<h2 id="roadmap-do-produto">RoadMap do Produto</h2>
-<p><img alt="ProductRoadMap" src="../roadmap.png" /></p>
-<h2 id="roadmap-de-papeis">RoadMap de papéis</h2>
-<p>Esta secção apresentará as responsabilidades de cada papel do scrum neste projeto.</p>
-<h3 id="scrum-master">Scrum Master</h3>
-<p>O(A) Scrum Master será responsável por:</p>
+                <h1 id="politicas-de-repositorio-de-codigo">Políticas de Repositório de código</h1>
+<h2 id="politica-de-commits">Política de Commits</h2>
+<p>Adota-se para este projeto padrões para o comentário e execução dos commits. O idioma padrão para efetuar commits neste repositório é o inglês. As mensagens devem ser sucintas e expressarem de forma clara e objetiva a ação do commit.</p>
+<p>Como exemplo, considere o trabalho da construção de uma tela inicial da aplicação. O commit deverá ser efetuado como segue:</p>
+<pre><code>git commit -m &quot;Create new home Screen&quot;
+</code></pre>
+
+<p>Atente ainda para os seguintes aspectos:
+* O commit deve iniciar com letras maiúsculas.
+* O commit deve iniciar com verbo no infinitivo.
+Exemplos:<br />
+-"Fix login auth error"<br />
+-"Create User model"<br />
+-"Refactor profile View"<br />
+-"Translate flat pages"    </p>
+<h2 id="politica-de-branches">Política de Branches</h2>
+<p>O repositório possui uma branch <code>master</code>, que possui objetivo de manter a versão estável do projeto.
+Possui também uma branch para desenvolvimento chamada <code>devel</code>, cujo objetivo é manter-se atualizada.
+Desta forma nenhum commit deve ser efetuado diretamente nestas branchs. As alterações devem ser criadas inicialmente em branchs de funcionalidades ou de configuração e correção, toda branch de funcionalidade deve ser criada a partir da branch devel. </p>
+<p>A imagem a seguir, ilustra como deve ser a organização das branchs e os eventos de criação e merge de acordo com o <a href="https://leanpub.com/git-flow/read">Git Flow</a>.
+[[https://leanpub.com/site_images/git-flow/git-workflow-release-cycle-2feature.png]]</p>
+<p>Como pode ser visto, após a etapa de desenvolvimento em uma branch de funcionalidade ser concluída, deve ser submetido um pull request em caso de alguma revisão ou merge da mesma. O pull request deve ser conferido por um membro da equipe e se estiver em conformidade, então o pull request é aceito. </p>
+<h2 id="padrao-para-criacao-e-uso-das-branches">Padrão para criação e uso das branches</h2>
+<p>Deve-se criar novas branches para trabalho seguindo padrão <a href="https://datasift.github.io/gitflow/IntroducingGitFlow.html">GitFlow</a>. Estas devem ser criadas a partir da branch <strong>develop</strong>, e devem seguir a nomenclatura padrão abaixo, redigidas no idioma inglês. </p>
+<p>O código das branchs deve estar sincronizado com alguma Issue do repositório, sendo então o nome padrão para as branchs no formato:<br />
+<strong>i401_validate_username</strong><br />
+<strong>i397_create_cluster_group</strong></p>
+<h2 id="automatizacao-de-fechamento-de-issue">Automatização de Fechamento de Issue</h2>
+<p>Caso termine sua funcionalidade e deseje fechar a Issue automaticamente é possivel através das palavras chaves na descrição do commit ou pull request:<br />
+<code>resolves: #numeroDaIssue</code><br />
+Em caso de múltiplas issues é necessário replicar o comando:<br />
+<code>resolves: #numeroDaIssue</code><br />
+<code>resolves: #numeroDaIssue2</code><br />
+<code>resolves: #numeroDaIssue3</code>  </p>
+<h2 id="pull-requests-tempestivos-e-permanentes">Pull-requests tempestivos e permanentes</h2>
+<p>Nesse projeto adotamos a política dos pull requests tempestivos e permanentes, ou seja, a partir do primeiro commit deve ser criado o pull request de merge da branch da issue com a develop. Esse pull request é, portanto, tempestivo - criado no primeiro commit - e permanente - permanece aberto enquanto o trabalho da issue estiver sendo executado. Além disso, sugere-se, para alterações no frontend, o envio também de prints ou gifs que ajudem a entender o trabalho realizado.</p>
+<p>O autor do pull request deve assignar o grupo de revisão: https://github.com/orgs/ejplatform/teams/revision</p>
+<h3 id="conflitos-nos-pull-requests">Conflitos nos Pull-requests</h3>
+<p>A branch do PR deve estar sempre atualizado com a branch de desenvolvimento (develop) em caso de conflitos, deve-se realizar um rebase na branch com a develop</p>
+<h3 id="excecoes-commits-que-podem-ser-feitos-diretamente-na-devel">Exceções: commits que podem ser feitos diretamente na devel</h3>
 <ul>
-<li>Documentar o <a href="">Product Backlog</a>;</li>
-<li>Priorizar o <a href="">Product Backlog</a>;</li>
-<li>Gerar e atualizar a <a href="">Tabela de Conhecimentos</a>;</li>
-<li>Realizar treinamento sobre metodologia ágil com a equipe;</li>
-<li>Gerar documentação de <a href="">Velocity</a>;</li>
-<li>Registrar <a href="">dailies</a>;</li>
-<li>Gerar e atualizar o <a href="">Burndown de Risco</a>;</li>
-<li>Realizar o planejamento das <a href="">sprints</a> seguintes.</li>
+<li>Fix de conteúdo e css (não arquiteturais)</li>
+<li>Tradução</li>
+<li>Cobertura de teste</li>
+<li>Atualizar assets</li>
+<li>Commits de melhoramentos/bugfix de pipeline (que precisam ser commitados na branch do pipeline)</li>
 </ul>
-<h3 id="arquitetoa">Arquiteto(a)</h3>
-<p>O(A) arquiteto(a) será responsável por:</p>
-<ul>
-<li>Gerar <a href="">Documento de Arquitetura</a>;</li>
-<li>Gerar <a href="">Diagrama de Pacotes</a>;</li>
-<li>Gerar <a href="">Diagrama de Classes</a>;</li>
-<li>Configurar o Banco de Dados.</li>
-</ul>
-<h3 id="devops">DevOps</h3>
-<p>O(A) DevOps será responśavel por:</p>
-<ul>
-<li>Gerar documento de <a href="">Política de Branches</a>;</li>
-<li>Gerar <a href="">Guia de Estilo</a>;</li>
-<li>Preparar ambiente de versionamento em nuvem;</li>
-<li>Preparar ambientes Docker;</li>
-<li>Configurar ferramentas de qualidade de código;</li>
-<li>Configurar integração contínua;</li>
-<li>Configurar éntrega conítnua.</li>
-</ul>
+<h3 id="validacoes-de-produto">Validações de produto</h3>
+<p>As validações de produto acontecem motivadas pelos PRs do develop para a master. Sempre que um revisor fizer o merge dos PRs vindos das branches de issue pra develop, gera um PR correspondente pra master, acionando a validação de produto, focada na release.</p>
                 
               
               
@@ -441,7 +495,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../.." title="Inicio" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../roadmap/roadmap/" title="RoadMap" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -450,25 +504,11 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Inicio
+                RoadMap
               </div>
             </div>
           </a>
         
-        
-          <a href="../../repository_politics/repository_politics/" title="Política de Repositório" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Próximo
-                </span>
-                Política de Repositório
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
         
       </nav>
     </div>
