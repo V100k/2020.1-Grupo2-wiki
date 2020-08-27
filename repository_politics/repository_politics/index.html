@@ -283,6 +283,19 @@
     Padrão para criação e uso das branches
   </a>
   
+    <nav class="md-nav" aria-label="Padrão para criação e uso das branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elementos-estruturais" class="md-nav__link">
+    Elementos estruturais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -377,6 +390,19 @@
     Padrão para criação e uso das branches
   </a>
   
+    <nav class="md-nav" aria-label="Padrão para criação e uso das branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elementos-estruturais" class="md-nav__link">
+    Elementos estruturais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -454,7 +480,7 @@ Exemplos:<br />
 -"Fix login auth error"<br />
 -"Create User model"<br />
 -"Refactor profile View"<br />
--"Translate flat pages"    </p>
+-"Translate flat pages"</p>
 <h2 id="politica-de-branches">Política de Branches</h2>
 <p>O repositório possui uma branch <code>master</code>, que possui objetivo de manter a versão estável do projeto.
 Possui também uma branch para desenvolvimento chamada <code>devel</code>, cujo objetivo é manter-se atualizada.
@@ -465,8 +491,20 @@ Desta forma nenhum commit deve ser efetuado diretamente nestas branchs. As alter
 <h2 id="padrao-para-criacao-e-uso-das-branches">Padrão para criação e uso das branches</h2>
 <p>Deve-se criar novas branches para trabalho seguindo padrão <a href="https://datasift.github.io/gitflow/IntroducingGitFlow.html">GitFlow</a>. Estas devem ser criadas a partir da branch <strong>develop</strong>, e devem seguir a nomenclatura padrão abaixo, redigidas no idioma inglês. </p>
 <p>O código das branchs deve estar sincronizado com alguma Issue do repositório, sendo então o nome padrão para as branchs no formato:<br />
-<strong>i401_validate_username</strong><br />
-<strong>i397_create_cluster_group</strong></p>
+<strong>tag/i401_validate_username</strong><br />
+<strong>tag/i397_create_cluster_group</strong></p>
+<p>As <strong>tags</strong> nos exemplos estão listadas em <a href="#elementos-estruturais">Elementos Estruturais</a></p>
+<h3 id="elementos-estruturais">Elementos estruturais</h3>
+<p><strong>fix</strong> - Commits do tipo fix indicam que seu trecho de código commitado está solucionando um problema (bug fix), (se relaciona com o PATCH do versionamento semântico).</p>
+<p><strong>feat</strong> - Commits do tipo feat indicam que seu trecho de código está incuindo um novo recurso (se relaciona com o MINOR do versionamento semântico).</p>
+<p><strong>docs</strong> - Commits do tipo docs indicam que houveram mudanças na documentação, como por exemplo no Readme do seu repositório. (Não inclui alterações em código).</p>
+<p><strong>style</strong> - Commits do tipo style indicam que houveram alterações referentes a formatações de código, 
+semicolons, trailing spaces, lint... (Não inclui alterações em código).</p>
+<p><strong>refactor</strong> - Commits do tipo refactor referem-se a mudanças devido a refatorações que não alterem sua funcionalidade, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review.</p>
+<p><strong>build</strong> - Commits do tipo build são utilizados quando são realizadas modificações em arquivos de build e dependências.</p>
+<p><strong>test</strong> - Commits do tipo test são utilizados quando são realizadas alterações em testes, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)</p>
+<p><strong>chore</strong> - Commits do tipo chore indicam atualizações de tarefas de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)</p>
+<p><strong>BREAKING CHANGE</strong> - Commits que possuem o texto BREAKING CHANGE no começo do corpo ou no rodapé, indicam que a modificação que está sendo realizada no commit, possui uma modificiação que quebra a compatibilidade da API, (se relaciona com o MAJOR do versionamento semântico).</p>
 <h2 id="automatizacao-de-fechamento-de-issue">Automatização de Fechamento de Issue</h2>
 <p>Caso termine sua funcionalidade e deseje fechar a Issue automaticamente é possivel através das palavras chaves na descrição do commit ou pull request:<br />
 <code>resolves: #numeroDaIssue</code><br />
