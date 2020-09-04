@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/</loc>
-     <lastmod>2020-08-27</lastmod>
+     <lastmod>2020-09-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/product_backlog/product_backlog/</loc>
-     <lastmod>2020-08-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/roadmap/roadmap/</loc>
-     <lastmod>2020-08-27</lastmod>
+     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/vision_document/vision_document/</loc>
+     <lastmod>2020-09-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/repository_politics/repository_politics/</loc>
-     <lastmod>2020-08-27</lastmod>
+     <lastmod>2020-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/product_backlog/product_backlog/</loc>
+     <lastmod>2020-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/roadmap/roadmap/</loc>
+     <lastmod>2020-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/sprints/sprint0/planning/</loc>
+     <lastmod>2020-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/sprints/sprint0/results/</loc>
+     <lastmod>2020-09-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://fga-eps-mds.github.io/2020.1-Grupo2-wiki/sprints/sprint1/planning/</loc>
+     <lastmod>2020-09-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
